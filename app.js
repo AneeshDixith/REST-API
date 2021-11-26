@@ -1,7 +1,6 @@
 const express = require('express');
 const app =  express();
 const postsRoute  = require('./routes/posts');
-const alternatePostsRoute = require('./routes/alternateposts');
 const bodyParser = require('body-parser');
 //const router = require('./routes/posts');
 const mongoose = require('mongoose');
