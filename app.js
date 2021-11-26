@@ -9,8 +9,8 @@ require('dotenv/config');
 
 
 app.use(bodyParser.json());
+
 app.use('/posts', postsRoute);
-app.use('/alternateposts', alternatePostsRoute);
 
 app.get('/', (req, res) => {
     res.send('This is the home screen.!!!!!');
